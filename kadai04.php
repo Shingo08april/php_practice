@@ -15,3 +15,18 @@ function sum($a, $b){
 }
 
 echo sum(1, 2) ."\n" ;
+
+/*3.$arr という配列の仮引数を持ち、数値が入った配列array(1, 3, 5 ,7, 9) を
+渡すとその要素をすべてかけた結果を返す関数を作成してください*/
+
+function kakeru($arr) {
+    $result = 1;
+    foreach($arr as $a) {
+        $result *= $a;
+    }
+    return $result;
+}
+echo kakeru(array(1, 3, 5, 7, 9));
+
+
+
