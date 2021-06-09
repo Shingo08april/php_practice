@@ -8,7 +8,7 @@ function sum($double){
 }
 echo sum(100);
 
-//2.$aと$bを仮引数に持ち、$aと$bを足した結果を返す関数を作成してください
+//2.$a と $b を仮引数に持ち、$a と $b を足した結果を返す関数を作成してください
 
 function sum($a, $b){
     return $a + $b ;
@@ -27,6 +27,12 @@ function kakeru($arr) {
     return $result;
 }
 echo kakeru(array(1, 3, 5, 7, 9));
+
+/*4.【応用】　下記のプログラムは、配列の中で1番大きい値を返す max_array という関数を実装しようとしています。
+途中の部分を完成させてください*/
+
+
+
 
 
 
