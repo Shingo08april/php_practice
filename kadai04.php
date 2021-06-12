@@ -110,6 +110,11 @@ echo date(DATE_RFC2822);
 echo date(DATE_ATOM, mktime(0, 0, 0, 7, 1, 2000));
 
 //5.の答えは全てhttps://www.php.net/manual/ja/function.strip-tagsからのコピー&スペースです。
+/*疑問、一つひとつのphpの実行は可能か、この課題全ての問が正直よく分からないまま、回答している別の人の書いたコードを見ながら打ち
+直したり、コピー&ペーストしたので全般的に意味がわかっていない。*/
+
+
+
 
 
 
