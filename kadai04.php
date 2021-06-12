@@ -6,7 +6,7 @@ function sum($double){
     $result = $double * 2 ;
     return $result ;
 }
-echo sum(100); 
+echo sum(100) ."\n" ;
 
 //2.$a と $b を仮引数に持ち、$a と $b を足した結果を返す関数を作成してください
 
@@ -23,6 +23,12 @@ function kakeru($arr) {
     $result = 1;
     foreach($arr as $a) {
         $result *= $a;
+        //$result = $result * $a;
+    /*$result = 1 * 1;
+    $result = 1 * 3;
+    $result = 3 * 5;
+    $result = 15 * 7;
+    $result = 105 * 9;*/
     }
     return $result;
 }
@@ -31,18 +37,21 @@ echo kakeru(array(1, 3, 5, 7, 9));
 /*4.【応用】　下記のプログラムは、配列の中で1番大きい値を返す max_array という関数を実装しようとしています。
 途中の部分を完成させてください*/
 
-/*function max_array($arr){
+function max_array($arr){
 // とりあえず配列の最初の要素を一番大きい値とする
  $max_number = $arr[0];
  foreach($arr as $a){
+     if($max_number < $a){
+         $max_number = $a;
+     }
  //どうしたらいいかわからない・・・・
  }
 
  return $max_number;
- }
+}
+
+echo max_array([5, 2, 3, 9, 7]) ."\n" ;
  
- echo max_array([5, 2, 3, 9, 7]) ."\n" ;
- */
 
 //5.下記のビルトイン関数の用途、使い方を調べて実際に使ってみてください
 
